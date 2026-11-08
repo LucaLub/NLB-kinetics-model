@@ -23,7 +23,5 @@ Give them their nominal values (0, 1, 2250 K, 1, 1, 1) for the steady state.</p>
 <p>OMEdit: select this model, File &gt; Export &gt; FMU (FMI 2.0, Model Exchange and
 Co-Simulation). Script: <code>buildModelFMU(NLBDynamics.ReactorFMU, version=\"2.0\",
 fmuType=\"me_cs\")</code>.</p>
-<p>Check that the FMU's resources folder contains h2_props.txt. If it does not,
-set the parameter fileName to the table's absolute path on the target machine.</p>
 </html>"));
 end ReactorFMU;
